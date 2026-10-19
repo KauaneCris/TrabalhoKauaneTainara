@@ -1,0 +1,276 @@
+header {
+    background: #f7d6e3;
+    border-bottom: 4px solid #c77a9c;
+    
+}
+
+.caixa {
+    width: 920px;
+    margin: 0 auto;
+    
+}
+
+.logo{
+    width: 160px;
+    height: 100px;
+}
+
+.banner {
+    height: 330px;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.texto-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    text-align: center;
+
+}
+
+.texto-banner h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 42px;
+    color: #9e4f72;
+    margin-bottom: 10px;
+}
+
+.texto-banner p {
+    font-size: 18px;
+    color: #555555;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #fffafa;
+    color: #333333;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 30px;
+    color: #8e4968;
+    margin-bottom: 35px;
+    font-family: Georgia;
+}
+
+.historia {
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.historia-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.imagem-historia {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border: 8px solid #f4d6e1;
+    border-radius: 5px;
+}
+
+.historia-conteudo p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+
+.principais {
+    background: #f9e9ef;
+    padding: 70px 0;
+}
+
+.subtitulo {
+    text-align: center;
+    margin: 15px auto 40px; /*-15*/
+    color: #666666;
+}
+
+.cards {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    width: 280px;
+    background: #ffffff;
+    text-align: center;
+    padding: 18px;
+    box-sizing: border-box;
+    border: 1px solid #e4bdcd;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover { 
+   margin-top: -5px;
+    box-shadow: 0 8px 20px rgba(130, 70, 100, 0.15);
+}
+
+.card h3 {
+    color: #9e4f72;
+    font-size: 20px;
+    margin: 18px 0 10px;
+    font-family: Georgia;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555555;
+}
+
+.classica{
+    width: 120px;
+    height: 270px;
+}
+
+.princesa {
+    width: 150px;
+    height: 280px;
+}
+
+.sereia{
+    width: 170px;
+    height: 280px;
+}
+
+.medica{
+    width: 170px;
+    height: 280px;
+}
+
+.espaco-imagem {
+    width: 100%;
+    height: 300px;
+    background: #f3dce5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+.linha-do-tempo {
+    width: 940px;
+    margin: 40px auto 0;
+}
+
+.tempo {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.item-tempo {
+    border-left: 3px solid #c77a9c;
+    padding: 0 0 18px 18px;
+    margin-left: 15px;
+}
+
+.item-tempo h3 {
+    color: #9e4f72;
+    font-size: 23px;
+    margin: 0 0 2px 0;
+    font-family: arial, sans-serif;
+}
+
+.item-tempo h4 {
+    color: #8e4968;
+    font-size: 17px;
+    margin: 0 0 5px 0;
+    font-family: Georgia;
+}
+
+.item-tempo p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.infancia {
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.infancia-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.texto-infancia {
+    flex: 1;
+}
+
+.texto-infancia p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.imagem-infancia {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 7px solid #f3dce5;
+}
+
+.frase {
+    background: #e8b9cb;
+    text-align: center;
+    padding: 20px 20px;
+    color: #5e3044;
+}
+
+.frase h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.frase p {
+    font-size: 16px;
+}
+
+footer {
+    background: #63384b;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 25px;
+    color: #eacbd7;
+}
